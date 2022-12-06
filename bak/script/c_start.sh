@@ -6,4 +6,4 @@ sed -i "13c \ \ - $RAB_CLASH_RELAY_NODE_INFO" /root/.config/clash/config.yaml
 sed -i "14c \ \ - $RAB_CLASH_NODE_INFO" /root/.config/clash/config.yaml
 
 # 2. 后台启动 Clash
-nohup ./clash >/dev/null 2>&1 &
+nohup /usr/local/bin/clash >/dev/null 2>&1 &
